@@ -32,3 +32,8 @@ const getArticleBySlug =  (req, res) => {
         });
 }
 
+// export controller functions
+module.exports = {
+    getAllArticles,
+    getArticleBySlug
+}; 
